@@ -15,11 +15,12 @@ function Services() {
       <div className='container mt-5'>
         <h2 className='text-center mb-4'><strong>Mon offre de Services</strong></h2>
         <p className='text-center mb-4'>Voici les prestations sur lesquelles je peux intervenir</p>
+        
           <hr
            style={{
             height: '4px',
             width: '450px',
-            backgroundColor: '#004080',
+            backgroundColor: 'blue',
             border: 'none',
             margin: '1rem auto',
 

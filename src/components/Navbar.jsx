@@ -14,7 +14,7 @@ function Navbar() {
             <li className='nav-item'><Link className='nav-link' to='/services'>SERVICES</Link></li>
             <li className='nav-item'><Link className='nav-link' to='/portofolio'>PORTOFOLIO</Link></li>
             <li className='nav-item'><Link className='nav-link' to='/contact'>CONTACT</Link></li>
-            <li className='nav-item'><Link className='nav-link' to='/mentions légales'>MENTIONS LEGALES</Link></li>
+            <li className='nav-item'><Link className='nav-link' to='/mentions-legales'>MENTIONS LEGALES</Link></li>
           </ul>
         </div>
       </div>

@@ -48,11 +48,11 @@ function Footer() {
           <div className="col-md-4">
             <h5 className="text-uppercase mb-4 font-weight-bold">Liens utiles</h5>
             <ul className="list-unstyled">
-              <li><a href="/" className="text-white text-decoration-none">Accueil</a></li>
+              <li><a href="/Home" className="text-white text-decoration-none">Accueil</a></li>
               <li><a href="/services" className="text-white text-decoration-none">Services</a></li>
               <li><a href="/portofolio" className="text-white text-decoration-none">Portofolio</a></li>
               <li><a href="/contact" className="text-white text-decoration-none">Me contacter</a></li>
-              <li><a href="/Mentions légales" className="text-white text-decoration-none">Mentions légales</a></li>
+              <li><a href="/mentions-legales" className="text-white text-decoration-none">Mentions Légales</a></li>
             </ul>
           </div>
 
@@ -61,12 +61,12 @@ function Footer() {
           <div className="col-md-4">
             <h5 className="text-uppercase mb-4 font-weight-bold">Derniers projets</h5>
             <ul className="list-unstyled">
-              <li>Fresh Food</li>
-              <li>Restaurant Akira</li>
-              <li>Espace bien-être</li>
-              <li>SEO</li>
-              <li>Création d'une API</li>
-              <li>Maquette d'un site</li>
+              <li><a href="/portofolio" className="text-white text-decoration-none">Fresh Food</a></li>
+              <li><a href="/portofolio" className="text-white text-decoration-none">Restaurant Akira </a></li>
+              <li><a href="/portofolio" className="text-white text-decoration-none">Espace bien-être</a></li>
+              <li><a href="/portofolio" className="text-white text-decoration-none">SEO</a></li>
+              <li><a href="/portofolio" className="text-white text-decoration-none">Création d'une API</a></li>
+              <li><a href="/portofolio" className="text-white text-decoration-none">Maquette d'un site</a></li>
             </ul>
           </div>
 

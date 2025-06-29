@@ -11,10 +11,9 @@ html, body {
   padding: 0;
   scroll-behavior: smooth;
   scroll-padding-top: 70px; 
-  /* pour les ancres sous navbar */
   font-family: 'Nunito Sans', sans-serif;
   background-color: #f8f9fa;
-   /* optionnel : fond clair Bootstrap */
+  
 }
 
 
@@ -91,4 +90,27 @@ h1, h2, h3, h4, h5, h6, strong {
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.btn.btn-primary.btn-small {
+  font-size: 0.75rem !important;
+  padding: 0.25rem 0.5rem !important;
+  max-width: 120px;  
+  width: auto;       
+  align-self: center;  
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1;
 }

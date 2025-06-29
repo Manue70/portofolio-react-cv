@@ -1,10 +1,15 @@
 
 import React, { useState } from 'react';
-import ModalGitHub from './ModalGitHub'; 
+import ModalGitHub from './ModalGitHub';
 
 function Home() {
    const [showModal, setShowModal] = useState(false);
-   return (
+
+  const handleOpen = () => setShowModal(true);
+  const handleClose = () => setShowModal(false);
+
+  return (
+
      <>
 
        <div className="hero"
