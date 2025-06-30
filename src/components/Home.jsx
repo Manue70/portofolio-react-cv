@@ -11,6 +11,7 @@ function Home() {
   return (
 
      <>
+     {/* photo + présentation et modale */}
 
        <div className="hero"
          style={{ 
@@ -38,18 +39,30 @@ function Home() {
       <ModalGitHub show={showModal} handleClose={() => setShowModal(false)} />
 
       <section className="p-5 ">
-        <div className="container bg-blacktext-white rounded shadow">
+        <div className="container bg-white text-black rounded shadow">
           <div className="row align-items-start">
 
             {/* Colonne gauche : texte + photo */}
 
             <div className="col-md-6 text-center">
               <h2>À propos </h2>
+
+              <hr
+              style={{
+                height: '4px',
+                width: '100%',
+                maxWidth: '400px',
+                backgroundColor: 'blue',
+                border: 'none',
+                margin: '1rem auto',
+              }}
+            />
+            
               <img
                 src="/assets/john-doe-about.jpg"
                 alt="John Doe"
                 className="img-fluid rounded mt-3"
-                style={{ maxWidth: '500px' }}
+                
               />
               <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br /> sed do eiusmod tempor incididunt ut labore, <br/> 
                   sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
@@ -59,8 +72,22 @@ function Home() {
 
             {/* Colonne droite : compétences */}
 
-            <div className="col-md-6">
+            <div className="col-12 col-md-6">
               <h2>Mes Compétences</h2>
+            
+
+              <hr
+              style={{
+                height: '4px',
+                width: '100%',
+                maxWidth: '400px',
+                backgroundColor: 'blue',
+                border: 'none',
+                margin: '1rem auto',
+              }}/>
+            
+              {/* barre de progression + couleur et pourcentage */}
+
 
               <div className='mb-3'>
                 <strong className="d-block mb-1">HTML 90%</strong>

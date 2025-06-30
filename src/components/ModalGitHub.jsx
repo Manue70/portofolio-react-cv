@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 
@@ -13,10 +14,10 @@ function ModalGitHub({ show, handleClose }) {
 
   return (
     <Modal show={show} onHide={handleClose} centered>
-      <Modal.Header closeButton>
+      <Modal.Header closeButton className="bg-dark text-white">
         <Modal.Title>Profil GitHub</Modal.Title>
       </Modal.Header>
-      <Modal.Body>
+      <Modal.Body className="bg-dark text-white">
         {data ? (
           <>
             <img
@@ -28,13 +29,22 @@ function ModalGitHub({ show, handleClose }) {
             <h5>{data.name}</h5>
             <p>{data.bio}</p>
             <p><strong>Public repos :</strong> {data.public_repos}</p>
-            <p><a href={data.html_url} target="_blank" rel="noreferrer">Voir le profil GitHub</a></p>
+            <p>
+              <a
+                href={data.html_url}
+                target="_blank"
+                rel="noreferrer"
+                className="text-info"
+              >
+                Voir le profil GitHub
+              </a>
+            </p>
           </>
         ) : (
           <p>Chargement en cours...</p>
         )}
       </Modal.Body>
-      <Modal.Footer>
+      <Modal.Footer className="bg-dark">
         <Button variant="secondary" onClick={handleClose}>
           Fermer
         </Button>

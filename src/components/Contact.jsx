@@ -14,7 +14,8 @@ function Contact() {
             <hr
               style={{
                 height: '4px',
-                width: '500px',
+                width: '100%',
+                maxWidth: '400px',
                 backgroundColor: 'blue',
                 border: 'none',
                 margin: '1rem auto',
